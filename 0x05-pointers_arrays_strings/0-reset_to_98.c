@@ -1,11 +1,12 @@
-#include "main.h"
-
-/**
- * reset_to_98 - takes the pointer and updates the value
- * @n: int type pointer
- * Return: 0 is success
- */
-
-void reset_to_98(int *n)
-{
-	*n = 98;
+#include "main.h"                                                  
+                                                                   
+/**                                                                
+*reset_to_98 - resets the value of given integer to 98             
+*@n: parameter                                                     
+*Return : nothing                                                  
+*/                                                                 
+                                                                   
+void reset_to_98(int *n)                                           
+{                                                                  
+        *n = 98;                                                   
+}
